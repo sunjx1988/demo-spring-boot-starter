@@ -1,3 +1,11 @@
+```yaml
+demo:
+  config:
+    enable: true
+    name: abc
+```
+
+
 首先，SpringBoot 在启动时会去依赖的starter包中寻找 resources/META-INF/spring.factories 文件，然后根据文件中配置的Jar包去扫描项目所依赖的Jar包，这类似于 Java 的 SPI 机制。
 
 第二步，根据 spring.factories配置加载AutoConfigure类。

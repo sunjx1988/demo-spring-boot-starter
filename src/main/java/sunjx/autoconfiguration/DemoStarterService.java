@@ -18,4 +18,8 @@ public class DemoStarterService {
     public void printServiceName(){
         log.info("serviceName =>{}", serviceName);
     }
+
+    public String getServiceName(){
+        return this.serviceName;
+    }
 }
