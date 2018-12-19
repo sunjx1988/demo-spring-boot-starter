@@ -32,5 +32,7 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.example.autoc
 
 @ConditionalOnResource:类路径下是否有指定的资源  
 
-@ConditionalOnSingleCandidate:当指定的Bean在容器中只有一个，或者在有多个Bean的情况下，用来指定首选的Bean @ConditionalOnWebApplication:当前项目是Web项目的条件下  
+@ConditionalOnSingleCandidate:当指定的Bean在容器中只有一个，或者在有多个Bean的情况下，用来指定首选的Bean 
+
+@ConditionalOnWebApplication:当前项目是Web项目的条件下  
 ```
